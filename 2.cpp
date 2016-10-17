@@ -43,17 +43,6 @@ public:
             ans_p->next = new ListNode(1);
         }
         
-        /*
-        ListNode * ans;
-        ans = new ListNode(1);
-        ListNode * anss = ans;
-
-        anss->next = new ListNode(2);
-        anss = anss->next;
-        anss->next = new ListNode(3);
-        anss = anss->next;
-        anss->next = new ListNode(4);
-        */
         return ans->next;
 
     }
